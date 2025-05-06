@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#title-tag {
+    color: #DC4814;
+    text-align: center;
+}
+
+#headerH1 {
+    font-size: medium;
+    color: black;
+    text-align: center;
+    
+}
