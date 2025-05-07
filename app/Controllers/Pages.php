@@ -5,10 +5,14 @@ namespace App\Controllers;
 class Pages extends BaseController
 {
     public function index() {
-        return view('pages/homepage');
+        echo view('layouts/header');
+        echo view('pages/homepage');
+        echo view('layouts/footer');
     }
 
     public function about() {
-        return view('pages/about');
+        echo view('layouts/header');
+        echo view('pages/about');
+        echo view('layouts/footer');
     }
 }
